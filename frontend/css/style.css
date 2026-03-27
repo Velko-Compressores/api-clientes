@@ -1,0 +1,120 @@
+
+/* ✅ BOTÕES DO MENU SUPERIOR  */
+
+.botoes-menu {
+    margin-bottom: 90px;
+    display: flex; 
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* Estilo base de todos os botões do menu */
+.botoes-menu button {
+    width: 180px;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+
+    font-weight: bold;
+    transition: 0.2s;
+    background: #f0efef;
+}
+
+.botoes-menu button:hover {
+    background: #e6e4e4;
+}
+
+
+/* Botão Logout */
+.logout-btn {
+    background: #d32f2f;
+    display: none; /* aparece só quando logado */
+}
+.logout-btn:hover {
+    background: #a82828;
+}
+
+
+
+
+
+/* ✅ Produtos */
+.produto {
+    background: #fff;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0px 2px 5px #ccc;
+}
+
+.lista-container {
+    width: 340px;
+}
+
+/* ✅ Layout lado a lado */
+.conteudo {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.coluna {
+    width: 350px;
+}
+
+/* ✅ Tabela carrinho */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    background: #fff;
+}
+
+
+
+/* pagina index */
+        .menu-principal {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 400px;
+            margin: 40px auto;
+        }
+
+        .menu-principal button {
+            width: 100%;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            border-radius: 6px;
+            background: #053466;
+            color: white;
+            transition: 0.2s;
+        }
+
+        .menu-principal button:hover {
+            background: #8fc3fa;
+        }
+
+
+
+
+
+
+
+
+
+

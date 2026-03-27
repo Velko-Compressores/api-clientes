@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>CE3-4CES-4CC</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>CE3-4CES-4CC</h1>
+<div class="botoes-menu">
+    <a href="index.html"><button class="home-btn">Home</button></a>
+    <a href="carrinho.html"><button class="carrinho-btn">Carrinho</button></a>
+    <a href="pedidos.html"><button class="pedidos-btn">Pedidos</button></a>
+    <a href="login.html"> <button id="btnLoginMenu" class="login-btn">Login</button></a>
+    <button id="btnLogout" class="logout-btn">Sair</button>  
+</div>
+<h3 id="saudacao" class="saudacao"></h3>
+
+<!-- ✅ CONTEÚDO LADO A LADO -->
+<div class="conteudo">
+
+    <!-- ✅ COLUNA 1 – PRODUTOS -->
+    <div class="coluna">
+        <h2>Lista de Produtos</h2>
+        <div id="listaProdutos" class="lista-container"></div>
+    </div>
+
+
+    <!-- ✅ COLUNA 2 – CARRINHO -->
+    <div class="coluna">
+        <h2>Itens no Carrinho</h2>
+
+        <table id="tabelaCarrinho">
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Qtd</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+
+        <!-- ✅ NOVOS BOTÕES -->
+        <div class="acoes-carrinho">
+            <button id="btnFinalizar" class="finalizar-btn">Finalizar Pedido</button>
+            <button id="btnContinuar" class="continuar-btn">Continuar Comprando</button>
+        </div>
+    </div>
+
+</div>
+
+<!-- <script src="js/index.js"></script> -->
+<script src="js/global.js"></script>
+<script src="js/carrinhoSidePanel.js"></script>
+<script src="js/catalogo4CES.js"></script>
+
+</body>
+</html>
+
+
+
